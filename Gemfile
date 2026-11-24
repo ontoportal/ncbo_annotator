@@ -14,14 +14,14 @@ gem 'activesupport'
 group :test do
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'ontoportal_testkit', github: 'agroportal/ontoportal_testkit', branch: 'main'
+  gem 'ontoportal_testkit', github: 'ontoportal/ontoportal_testkit', branch: 'main'
   gem 'pry'
   gem 'simplecov'
   gem 'simplecov-cobertura' # for codecov.io
 end
 
 # NCBO gems (can be from a local dev path or from rubygems/git)
-gem 'goo', github: 'agroportal/goo', branch: 'master'
+gem 'goo', github: 'ontoportal/goo', branch: 'master'
 gem 'ontologies_linked_data', github: 'agroportal/ontologies_linked_data', branch: 'master'
 
 # agroportal ontologies_linked_data requires net/ftp, a bundled gem since Ruby 3.1
